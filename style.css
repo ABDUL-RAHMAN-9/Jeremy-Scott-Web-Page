@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav-bar {
+    position: relative;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-bar a {
+    color: white;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.nav-bar button {
+    background-color: white;
+    padding: 0.515rem;
+    border: 1em solid black;
+    border-radius: 50px;
+    margin-left: 15rem;
+
+}
+
+
+.nav-bar button a {
+    color: black;
+
+}
+
+.nav-bar button a:hover {
+    text-decoration: none;
+
+}
+
+.nav-bar a:hover {
+
+
+    text-decoration: underline;
+}
+
+.skin-care-nav {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 3.50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.right-bar {
+    position: absolute;
+    width: 60rem;
+    height: 60rem;
+    z-index: -1;
+    margin-top: 105px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.right-bar img{
+    width: 880px;
+
+}
+
+.left-bar {
+    position: absolute;
+    right: 0;
+    width: 60rem;
+    height: 60rem;
+    z-index: -1;
+    margin-top: 105px;
+
+}
+
+.left-bar .left-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15rem;
+
+}
+
+.left-bar .left-content h2 {
+    padding: 1.14rem;
+    font-size: 3.995rem;
+}
+
+.left-bar .left-content p {
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+
+.address {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 13px;
+
+
+
+}
+
+span {
+    padding-right: 13px;
+}
+
+.address a {
+    color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#article-btn {
+    width: 150px;
+    height: 20px;
+    padding: 18px 18px;
+    font-size: 13px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+#article-btn i {
+    padding-right: 0.8rem;
+
+}
+
+.btn #article-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all ease-in-out 0.3s;
+
+}
+
