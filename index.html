@@ -16,53 +16,81 @@
 
 <body>
 
+    <!-- Navigation -->
     <div class="nav-bar">
-        <h2 style="color: white;">JEREMY SCOTT</h2>
-        <a href="#">FASHION</a>
-        <a href="#">SHOPPING</a>
-        <a href="#">BEAUTY</a>
-        <a href="#">CELEBRITY</a>
-        <a href="#">CULTURE</a>
-
-        <button id="subscribe_Btn">
-            <a href="#">SUBSCRIBE</a>
-        </button>
-
-        <a href="#">SIGN IN</a>
+        <h2 class="logo">JEREMY SCOTT</h2>
+        <div class="nav-links">
+            <a href="#fashion">FASHION</a>
+            <a href="#shopping">SHOPPING</a>
+            <a href="#beauty">BEAUTY</a>
+            <a href="#celebrity">CELEBRITY</a>
+            <a href="#culture">CULTURE</a>
+            <button id="subscribe_Btn"><a href="#subscribe">SUBSCRIBE</a></button>
+            <a href="#signin">SIGN IN</a>
+        </div>
+        <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
     </div>
 
+    <!-- Tagline -->
     <div class="skin-care-nav">
         <p>Good skincare is not about having perfect skin, it's about loving the skin you're in.</p>
     </div>
 
-    <div class="right-bar">
-        <img src="assets/skin-care.bmp" alt="">
-    </div>
+    <!-- Main Content -->
+    <div class="main-container">
+        <div class="left-bar">
+            <div class="left-content">
+                <h2>The 10 Best Niacinamide Serums For Radiant Skin</h2>
+                <p>Nearly every skincare brand has a niacinamide serum—so we asked our expert dermatologists to break
+                    down the best ones.</p>
 
-    <div class="left-bar">
-        <div class="left-content">
-            <h2>The 10 Best Niacinamide Serums For Radiant Skin</h2>
-            <p>Nearly every skincare brand has a niacinamide serum—so we asked our expert dermatologists to break
-                down the best ones.</p>
+                <address class="address">
+                    <span>BY <a href="#">Abdul Rahman</a></span>
+                    <div class="time">PUBLISHED: Aug 27, 2024</div>
+                </address>
 
-            <address class="address">
-                <span>
-                    BY
-                    <a href="#">Abdul Rahman</a>
-                </span>
-                <div class="time">
-                    PUBLISHED: Aug 27, 2024
+                <div class="btn">
+                    <button id="article-btn"><i class="fa-regular fa-bookmark"></i> SAVE ARTICLE</button>
                 </div>
-            </address>
-
-            <div class="btn">
-                <button id="article-btn"><i class="fa-regular fa-bookmark"></i>SAVE ARTICLE</button>
             </div>
+        </div>
+
+        <div class="right-bar">
+            <img src="assets/skin-care.webp" alt="Skin Care">
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <!-- Related Articles -->
+    <section class="related-articles" id="fashion">
+        <h3>Related Articles</h3>
+        <div class="article-grid">
+            <div class="article-card">
+                <img src="https://www.shaadidukaan.com/vogue/wp-content/uploads/2025/05/Cloud-skin.webp" alt="">
+                <h4>5 Beauty Hacks for Glowing Skin</h4>
+            </div>
+            <div class="article-card">
+                <img src="https://www.shaadidukaan.com/vogue/wp-content/uploads/2025/05/Satin-skin.webp" alt="">
+                <h4>Latest Makeup Trends You Must Try</h4>
+            </div>
+            <div class="article-card">
+                <img src="https://www.shaadidukaan.com/vogue/wp-content/uploads/2025/05/Summer-Makeup-Trends-2025-2.webp" alt="">
+                <h4>Morning Routine for Healthy Skin</h4>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 JEREMY SCOTT | Designed with ❤️</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
